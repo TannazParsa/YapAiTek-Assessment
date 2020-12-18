@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B664D43E258D18F5007D2D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D43D258D18F5007D2D64 /* AppDelegate.swift */; };
+		B664D440258D18F5007D2D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D43F258D18F5007D2D64 /* SceneDelegate.swift */; };
+		B664D442258D18F5007D2D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D441258D18F5007D2D64 /* ViewController.swift */; };
+		B664D445258D18F5007D2D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B664D443258D18F5007D2D64 /* Main.storyboard */; };
+		B664D447258D18F7007D2D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B664D446258D18F7007D2D64 /* Assets.xcassets */; };
+		B664D44A258D18F7007D2D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B664D448258D18F7007D2D64 /* LaunchScreen.storyboard */; };
+		B664D455258D18F8007D2D64 /* YapAiTek_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D454258D18F8007D2D64 /* YapAiTek_AssessmentTests.swift */; };
+		B664D460258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D45F258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B664D451258D18F8007D2D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B664D432258D18F5007D2D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B664D439258D18F5007D2D64;
+			remoteInfo = "YapAiTek-Assessment";
+		};
+		B664D45C258D18F8007D2D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B664D432258D18F5007D2D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B664D439258D18F5007D2D64;
+			remoteInfo = "YapAiTek-Assessment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B664D43A258D18F5007D2D64 /* YapAiTek-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YapAiTek-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B664D43D258D18F5007D2D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B664D43F258D18F5007D2D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B664D441258D18F5007D2D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B664D444258D18F5007D2D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B664D446258D18F7007D2D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B664D449258D18F7007D2D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B664D44B258D18F7007D2D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B664D450258D18F8007D2D64 /* YapAiTek-AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YapAiTek-AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B664D454258D18F8007D2D64 /* YapAiTek_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapAiTek_AssessmentTests.swift; sourceTree = "<group>"; };
+		B664D456258D18F8007D2D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B664D45B258D18F8007D2D64 /* YapAiTek-AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YapAiTek-AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B664D45F258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapAiTek_AssessmentUITests.swift; sourceTree = "<group>"; };
+		B664D461258D18F8007D2D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B664D437258D18F5007D2D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664D44D258D18F8007D2D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664D458258D18F8007D2D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B664D431258D18F5007D2D64 = {
+			isa = PBXGroup;
+			children = (
+				B664D43C258D18F5007D2D64 /* YapAiTek-Assessment */,
+				B664D453258D18F8007D2D64 /* YapAiTek-AssessmentTests */,
+				B664D45E258D18F8007D2D64 /* YapAiTek-AssessmentUITests */,
+				B664D43B258D18F5007D2D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B664D43B258D18F5007D2D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B664D43A258D18F5007D2D64 /* YapAiTek-Assessment.app */,
+				B664D450258D18F8007D2D64 /* YapAiTek-AssessmentTests.xctest */,
+				B664D45B258D18F8007D2D64 /* YapAiTek-AssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B664D43C258D18F5007D2D64 /* YapAiTek-Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				B664D43D258D18F5007D2D64 /* AppDelegate.swift */,
+				B664D43F258D18F5007D2D64 /* SceneDelegate.swift */,
+				B664D441258D18F5007D2D64 /* ViewController.swift */,
+				B664D443258D18F5007D2D64 /* Main.storyboard */,
+				B664D446258D18F7007D2D64 /* Assets.xcassets */,
+				B664D448258D18F7007D2D64 /* LaunchScreen.storyboard */,
+				B664D44B258D18F7007D2D64 /* Info.plist */,
+			);
+			path = "YapAiTek-Assessment";
+			sourceTree = "<group>";
+		};
+		B664D453258D18F8007D2D64 /* YapAiTek-AssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				B664D454258D18F8007D2D64 /* YapAiTek_AssessmentTests.swift */,
+				B664D456258D18F8007D2D64 /* Info.plist */,
+			);
+			path = "YapAiTek-AssessmentTests";
+			sourceTree = "<group>";
+		};
+		B664D45E258D18F8007D2D64 /* YapAiTek-AssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B664D45F258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift */,
+				B664D461258D18F8007D2D64 /* Info.plist */,
+			);
+			path = "YapAiTek-AssessmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B664D439258D18F5007D2D64 /* YapAiTek-Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B664D464258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-Assessment" */;
+			buildPhases = (
+				B664D436258D18F5007D2D64 /* Sources */,
+				B664D437258D18F5007D2D64 /* Frameworks */,
+				B664D438258D18F5007D2D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YapAiTek-Assessment";
+			productName = "YapAiTek-Assessment";
+			productReference = B664D43A258D18F5007D2D64 /* YapAiTek-Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B664D44F258D18F8007D2D64 /* YapAiTek-AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B664D467258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-AssessmentTests" */;
+			buildPhases = (
+				B664D44C258D18F8007D2D64 /* Sources */,
+				B664D44D258D18F8007D2D64 /* Frameworks */,
+				B664D44E258D18F8007D2D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B664D452258D18F8007D2D64 /* PBXTargetDependency */,
+			);
+			name = "YapAiTek-AssessmentTests";
+			productName = "YapAiTek-AssessmentTests";
+			productReference = B664D450258D18F8007D2D64 /* YapAiTek-AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B664D45A258D18F8007D2D64 /* YapAiTek-AssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B664D46A258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-AssessmentUITests" */;
+			buildPhases = (
+				B664D457258D18F8007D2D64 /* Sources */,
+				B664D458258D18F8007D2D64 /* Frameworks */,
+				B664D459258D18F8007D2D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B664D45D258D18F8007D2D64 /* PBXTargetDependency */,
+			);
+			name = "YapAiTek-AssessmentUITests";
+			productName = "YapAiTek-AssessmentUITests";
+			productReference = B664D45B258D18F8007D2D64 /* YapAiTek-AssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B664D432258D18F5007D2D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B664D439258D18F5007D2D64 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B664D44F258D18F8007D2D64 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B664D439258D18F5007D2D64;
+					};
+					B664D45A258D18F8007D2D64 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B664D439258D18F5007D2D64;
+					};
+				};
+			};
+			buildConfigurationList = B664D435258D18F5007D2D64 /* Build configuration list for PBXProject "YapAiTek-Assessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B664D431258D18F5007D2D64;
+			productRefGroup = B664D43B258D18F5007D2D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B664D439258D18F5007D2D64 /* YapAiTek-Assessment */,
+				B664D44F258D18F8007D2D64 /* YapAiTek-AssessmentTests */,
+				B664D45A258D18F8007D2D64 /* YapAiTek-AssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B664D438258D18F5007D2D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664D44A258D18F7007D2D64 /* LaunchScreen.storyboard in Resources */,
+				B664D447258D18F7007D2D64 /* Assets.xcassets in Resources */,
+				B664D445258D18F5007D2D64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664D44E258D18F8007D2D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664D459258D18F8007D2D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B664D436258D18F5007D2D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664D442258D18F5007D2D64 /* ViewController.swift in Sources */,
+				B664D43E258D18F5007D2D64 /* AppDelegate.swift in Sources */,
+				B664D440258D18F5007D2D64 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664D44C258D18F8007D2D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664D455258D18F8007D2D64 /* YapAiTek_AssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664D457258D18F8007D2D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664D460258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B664D452258D18F8007D2D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B664D439258D18F5007D2D64 /* YapAiTek-Assessment */;
+			targetProxy = B664D451258D18F8007D2D64 /* PBXContainerItemProxy */;
+		};
+		B664D45D258D18F8007D2D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B664D439258D18F5007D2D64 /* YapAiTek-Assessment */;
+			targetProxy = B664D45C258D18F8007D2D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B664D443258D18F5007D2D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B664D444258D18F5007D2D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B664D448258D18F7007D2D64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B664D449258D18F7007D2D64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B664D462258D18F8007D2D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B664D463258D18F8007D2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B664D465258D18F8007D2D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4945R7GGN6;
+				INFOPLIST_FILE = "YapAiTek-Assessment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YapAiTek.app.com.YapAiTek-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B664D466258D18F8007D2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4945R7GGN6;
+				INFOPLIST_FILE = "YapAiTek-Assessment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YapAiTek.app.com.YapAiTek-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B664D468258D18F8007D2D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4945R7GGN6;
+				INFOPLIST_FILE = "YapAiTek-AssessmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YapAiTek.app.com.YapAiTek-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YapAiTek-Assessment.app/YapAiTek-Assessment";
+			};
+			name = Debug;
+		};
+		B664D469258D18F8007D2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4945R7GGN6;
+				INFOPLIST_FILE = "YapAiTek-AssessmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YapAiTek.app.com.YapAiTek-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YapAiTek-Assessment.app/YapAiTek-Assessment";
+			};
+			name = Release;
+		};
+		B664D46B258D18F8007D2D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4945R7GGN6;
+				INFOPLIST_FILE = "YapAiTek-AssessmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YapAiTek.app.com.YapAiTek-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YapAiTek-Assessment";
+			};
+			name = Debug;
+		};
+		B664D46C258D18F8007D2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4945R7GGN6;
+				INFOPLIST_FILE = "YapAiTek-AssessmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YapAiTek.app.com.YapAiTek-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YapAiTek-Assessment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B664D435258D18F5007D2D64 /* Build configuration list for PBXProject "YapAiTek-Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B664D462258D18F8007D2D64 /* Debug */,
+				B664D463258D18F8007D2D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B664D464258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B664D465258D18F8007D2D64 /* Debug */,
+				B664D466258D18F8007D2D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B664D467258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B664D468258D18F8007D2D64 /* Debug */,
+				B664D469258D18F8007D2D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B664D46A258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-AssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B664D46B258D18F8007D2D64 /* Debug */,
+				B664D46C258D18F8007D2D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B664D432258D18F5007D2D64 /* Project object */;
+}
