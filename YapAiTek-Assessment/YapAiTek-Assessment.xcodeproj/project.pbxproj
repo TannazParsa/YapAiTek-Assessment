@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96777F2E398D0FEEC30A888F /* Pods_YapAiTek_Assessment_YapAiTek_AssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345EDCB195F84CB0BF3A887B /* Pods_YapAiTek_Assessment_YapAiTek_AssessmentUITests.framework */; };
 		B664D43E258D18F5007D2D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D43D258D18F5007D2D64 /* AppDelegate.swift */; };
 		B664D440258D18F5007D2D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D43F258D18F5007D2D64 /* SceneDelegate.swift */; };
-		B664D442258D18F5007D2D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D441258D18F5007D2D64 /* ViewController.swift */; };
+		B664D442258D18F5007D2D64 /* MainViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D441258D18F5007D2D64 /* MainViewControllerViewController.swift */; };
 		B664D445258D18F5007D2D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B664D443258D18F5007D2D64 /* Main.storyboard */; };
 		B664D447258D18F7007D2D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B664D446258D18F7007D2D64 /* Assets.xcassets */; };
 		B664D44A258D18F7007D2D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B664D448258D18F7007D2D64 /* LaunchScreen.storyboard */; };
 		B664D455258D18F8007D2D64 /* YapAiTek_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D454258D18F8007D2D64 /* YapAiTek_AssessmentTests.swift */; };
 		B664D460258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D45F258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift */; };
+		B664D487258D2B4B007D2D64 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D486258D2B4B007D2D64 /* WebViewController.swift */; };
+		B664D48D258D3DD7007D2D64 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D48C258D3DD7007D2D64 /* Constants.swift */; };
+		B664D492258D44E8007D2D64 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D491258D44E8007D2D64 /* WebServices.swift */; };
+		B664D49C258D4CEC007D2D64 /* DataRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D49B258D4CEC007D2D64 /* DataRequestExtensions.swift */; };
+		B664D4A3258D5153007D2D64 /* FlickrServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4A2258D5153007D2D64 /* FlickrServices.swift */; };
+		B664D4AC258D5356007D2D64 /* FlickrSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4AB258D5356007D2D64 /* FlickrSearchResponse.swift */; };
+		B664D4BC258D5956007D2D64 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4BB258D5956007D2D64 /* MainViewModel.swift */; };
+		B664D4C8258D686A007D2D64 /* FlickrPhotoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4C7258D686A007D2D64 /* FlickrPhotoCollectionVC.swift */; };
+		B664D4CD258D68A5007D2D64 /* FlickrPhotoCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4CC258D68A5007D2D64 /* FlickrPhotoCollectionViewModel.swift */; };
+		B664D4D7258D698D007D2D64 /* FlickrPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B664D4D5258D698D007D2D64 /* FlickrPhotoCollectionViewCell.swift */; };
+		B664D4D8258D698D007D2D64 /* FlickrPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B664D4D6258D698D007D2D64 /* FlickrPhotoCollectionViewCell.xib */; };
+		BD5F12494F0115B85617C204 /* Pods_YapAiTek_AssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB48824712AC1E0D46E7A01 /* Pods_YapAiTek_AssessmentTests.framework */; };
+		F7E96BDBC21E049EF34895C0 /* Pods_YapAiTek_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0886652A11CF8A35422ABB39 /* Pods_YapAiTek_Assessment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0886652A11CF8A35422ABB39 /* Pods_YapAiTek_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapAiTek_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		130F3E9B875D818EC21E66FB /* Pods-YapAiTek-Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapAiTek-Assessment.release.xcconfig"; path = "Target Support Files/Pods-YapAiTek-Assessment/Pods-YapAiTek-Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		345EDCB195F84CB0BF3A887B /* Pods_YapAiTek_Assessment_YapAiTek_AssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapAiTek_Assessment_YapAiTek_AssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		481CF2FCAC9F996A867C9D06 /* Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CA315FAAA19E9C2E9D37BB4 /* Pods-YapAiTek-Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapAiTek-Assessment.debug.xcconfig"; path = "Target Support Files/Pods-YapAiTek-Assessment/Pods-YapAiTek-Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 		B664D43A258D18F5007D2D64 /* YapAiTek-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YapAiTek-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B664D43D258D18F5007D2D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B664D43F258D18F5007D2D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B664D441258D18F5007D2D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B664D441258D18F5007D2D64 /* MainViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerViewController.swift; sourceTree = "<group>"; };
 		B664D444258D18F5007D2D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B664D446258D18F7007D2D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B664D449258D18F7007D2D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,21 @@
 		B664D45B258D18F8007D2D64 /* YapAiTek-AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YapAiTek-AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B664D45F258D18F8007D2D64 /* YapAiTek_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapAiTek_AssessmentUITests.swift; sourceTree = "<group>"; };
 		B664D461258D18F8007D2D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B664D486258D2B4B007D2D64 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B664D48C258D3DD7007D2D64 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B664D491258D44E8007D2D64 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		B664D49B258D4CEC007D2D64 /* DataRequestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestExtensions.swift; sourceTree = "<group>"; };
+		B664D4A2258D5153007D2D64 /* FlickrServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrServices.swift; sourceTree = "<group>"; };
+		B664D4AB258D5356007D2D64 /* FlickrSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrSearchResponse.swift; sourceTree = "<group>"; };
+		B664D4BB258D5956007D2D64 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		B664D4C7258D686A007D2D64 /* FlickrPhotoCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCollectionVC.swift; sourceTree = "<group>"; };
+		B664D4CC258D68A5007D2D64 /* FlickrPhotoCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCollectionViewModel.swift; sourceTree = "<group>"; };
+		B664D4D5258D698D007D2D64 /* FlickrPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B664D4D6258D698D007D2D64 /* FlickrPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlickrPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF425DF9715E9DEBA90854FA /* Pods-YapAiTek-AssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapAiTek-AssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-YapAiTek-AssessmentTests/Pods-YapAiTek-AssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A12042772F5E0AE05EFD94 /* Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEB48824712AC1E0D46E7A01 /* Pods_YapAiTek_AssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapAiTek_AssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEB9E70C023168D6AD44E75 /* Pods-YapAiTek-AssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapAiTek-AssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-YapAiTek-AssessmentTests/Pods-YapAiTek-AssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E96BDBC21E049EF34895C0 /* Pods_YapAiTek_Assessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5F12494F0115B85617C204 /* Pods_YapAiTek_AssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96777F2E398D0FEEC30A888F /* Pods_YapAiTek_Assessment_YapAiTek_AssessmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7177DDA434A36B1813831CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CA315FAAA19E9C2E9D37BB4 /* Pods-YapAiTek-Assessment.debug.xcconfig */,
+				130F3E9B875D818EC21E66FB /* Pods-YapAiTek-Assessment.release.xcconfig */,
+				C4A12042772F5E0AE05EFD94 /* Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.debug.xcconfig */,
+				481CF2FCAC9F996A867C9D06 /* Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.release.xcconfig */,
+				BF425DF9715E9DEBA90854FA /* Pods-YapAiTek-AssessmentTests.debug.xcconfig */,
+				FDEB9E70C023168D6AD44E75 /* Pods-YapAiTek-AssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B664D431258D18F5007D2D64 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 				B664D453258D18F8007D2D64 /* YapAiTek-AssessmentTests */,
 				B664D45E258D18F8007D2D64 /* YapAiTek-AssessmentUITests */,
 				B664D43B258D18F5007D2D64 /* Products */,
+				A7177DDA434A36B1813831CE /* Pods */,
+				EB5F9BF5557891F3CBCD05CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +151,17 @@
 		B664D43C258D18F5007D2D64 /* YapAiTek-Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				B664D499258D4CCA007D2D64 /* Helper */,
+				B664D48B258D3DC2007D2D64 /* Constants */,
+				B664D47C258D210F007D2D64 /* Network */,
+				B664D4B9258D5925007D2D64 /* Controller */,
 				B664D43D258D18F5007D2D64 /* AppDelegate.swift */,
 				B664D43F258D18F5007D2D64 /* SceneDelegate.swift */,
-				B664D441258D18F5007D2D64 /* ViewController.swift */,
 				B664D443258D18F5007D2D64 /* Main.storyboard */,
 				B664D446258D18F7007D2D64 /* Assets.xcassets */,
 				B664D448258D18F7007D2D64 /* LaunchScreen.storyboard */,
 				B664D44B258D18F7007D2D64 /* Info.plist */,
+				B664D486258D2B4B007D2D64 /* WebViewController.swift */,
 			);
 			path = "YapAiTek-Assessment";
 			sourceTree = "<group>";
@@ -128,6 +184,111 @@
 			path = "YapAiTek-AssessmentUITests";
 			sourceTree = "<group>";
 		};
+		B664D47C258D210F007D2D64 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B664D4AA258D531C007D2D64 /* Models */,
+				B664D4A1258D5138007D2D64 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B664D48B258D3DC2007D2D64 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B664D48C258D3DD7007D2D64 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B664D499258D4CCA007D2D64 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B664D49A258D4CD1007D2D64 /* Extenstions */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B664D49A258D4CD1007D2D64 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				B664D49B258D4CEC007D2D64 /* DataRequestExtensions.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		B664D4A0258D512B007D2D64 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B664D491258D44E8007D2D64 /* WebServices.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B664D4A1258D5138007D2D64 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B664D4A0258D512B007D2D64 /* Base */,
+				B664D4A2258D5153007D2D64 /* FlickrServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B664D4AA258D531C007D2D64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B664D4AB258D5356007D2D64 /* FlickrSearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B664D4B9258D5925007D2D64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B664D4C5258D683C007D2D64 /* FlickrPhotoCollection */,
+				B664D4BA258D593F007D2D64 /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B664D4BA258D593F007D2D64 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B664D441258D18F5007D2D64 /* MainViewControllerViewController.swift */,
+				B664D4BB258D5956007D2D64 /* MainViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B664D4C5258D683C007D2D64 /* FlickrPhotoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				B664D4D1258D6960007D2D64 /* NibCell */,
+				B664D4C7258D686A007D2D64 /* FlickrPhotoCollectionVC.swift */,
+				B664D4CC258D68A5007D2D64 /* FlickrPhotoCollectionViewModel.swift */,
+			);
+			path = FlickrPhotoCollection;
+			sourceTree = "<group>";
+		};
+		B664D4D1258D6960007D2D64 /* NibCell */ = {
+			isa = PBXGroup;
+			children = (
+				B664D4D5258D698D007D2D64 /* FlickrPhotoCollectionViewCell.swift */,
+				B664D4D6258D698D007D2D64 /* FlickrPhotoCollectionViewCell.xib */,
+			);
+			path = NibCell;
+			sourceTree = "<group>";
+		};
+		EB5F9BF5557891F3CBCD05CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0886652A11CF8A35422ABB39 /* Pods_YapAiTek_Assessment.framework */,
+				345EDCB195F84CB0BF3A887B /* Pods_YapAiTek_Assessment_YapAiTek_AssessmentUITests.framework */,
+				EEB48824712AC1E0D46E7A01 /* Pods_YapAiTek_AssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B664D464258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-Assessment" */;
 			buildPhases = (
+				31FE9082F057A993F5D2757F /* [CP] Check Pods Manifest.lock */,
 				B664D436258D18F5007D2D64 /* Sources */,
 				B664D437258D18F5007D2D64 /* Frameworks */,
 				B664D438258D18F5007D2D64 /* Resources */,
+				F04494EC8584DD3A09FBE266 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B664D467258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-AssessmentTests" */;
 			buildPhases = (
+				EFE2E0BA135BE77E09510CC3 /* [CP] Check Pods Manifest.lock */,
 				B664D44C258D18F8007D2D64 /* Sources */,
 				B664D44D258D18F8007D2D64 /* Frameworks */,
 				B664D44E258D18F8007D2D64 /* Resources */,
@@ -170,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B664D46A258D18F8007D2D64 /* Build configuration list for PBXNativeTarget "YapAiTek-AssessmentUITests" */;
 			buildPhases = (
+				5D044E4DED432ECD9BC1CE93 /* [CP] Check Pods Manifest.lock */,
 				B664D457258D18F8007D2D64 /* Sources */,
 				B664D458258D18F8007D2D64 /* Frameworks */,
 				B664D459258D18F8007D2D64 /* Resources */,
+				1CA445044E82F3435E217454 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +399,7 @@
 			files = (
 				B664D44A258D18F7007D2D64 /* LaunchScreen.storyboard in Resources */,
 				B664D447258D18F7007D2D64 /* Assets.xcassets in Resources */,
+				B664D4D8258D698D007D2D64 /* FlickrPhotoCollectionViewCell.xib in Resources */,
 				B664D445258D18F5007D2D64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +420,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CA445044E82F3435E217454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31FE9082F057A993F5D2757F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapAiTek-Assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D044E4DED432ECD9BC1CE93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE2E0BA135BE77E09510CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapAiTek-AssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04494EC8584DD3A09FBE266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapAiTek-Assessment/Pods-YapAiTek-Assessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YapAiTek-Assessment/Pods-YapAiTek-Assessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YapAiTek-Assessment/Pods-YapAiTek-Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B664D436258D18F5007D2D64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B664D442258D18F5007D2D64 /* ViewController.swift in Sources */,
+				B664D49C258D4CEC007D2D64 /* DataRequestExtensions.swift in Sources */,
+				B664D4AC258D5356007D2D64 /* FlickrSearchResponse.swift in Sources */,
+				B664D48D258D3DD7007D2D64 /* Constants.swift in Sources */,
+				B664D442258D18F5007D2D64 /* MainViewControllerViewController.swift in Sources */,
+				B664D4CD258D68A5007D2D64 /* FlickrPhotoCollectionViewModel.swift in Sources */,
+				B664D492258D44E8007D2D64 /* WebServices.swift in Sources */,
+				B664D4BC258D5956007D2D64 /* MainViewModel.swift in Sources */,
+				B664D4C8258D686A007D2D64 /* FlickrPhotoCollectionVC.swift in Sources */,
 				B664D43E258D18F5007D2D64 /* AppDelegate.swift in Sources */,
 				B664D440258D18F5007D2D64 /* SceneDelegate.swift in Sources */,
+				B664D4A3258D5153007D2D64 /* FlickrServices.swift in Sources */,
+				B664D4D7258D698D007D2D64 /* FlickrPhotoCollectionViewCell.swift in Sources */,
+				B664D487258D2B4B007D2D64 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +713,7 @@
 		};
 		B664D465258D18F8007D2D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA315FAAA19E9C2E9D37BB4 /* Pods-YapAiTek-Assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +733,7 @@
 		};
 		B664D466258D18F8007D2D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130F3E9B875D818EC21E66FB /* Pods-YapAiTek-Assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +753,7 @@
 		};
 		B664D468258D18F8007D2D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF425DF9715E9DEBA90854FA /* Pods-YapAiTek-AssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +776,7 @@
 		};
 		B664D469258D18F8007D2D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEB9E70C023168D6AD44E75 /* Pods-YapAiTek-AssessmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +799,7 @@
 		};
 		B664D46B258D18F8007D2D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A12042772F5E0AE05EFD94 /* Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +820,7 @@
 		};
 		B664D46C258D18F8007D2D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481CF2FCAC9F996A867C9D06 /* Pods-YapAiTek-Assessment-YapAiTek-AssessmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

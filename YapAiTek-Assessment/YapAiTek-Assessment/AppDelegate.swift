@@ -6,10 +6,17 @@
 //
 
 import UIKit
+import OAuthSwift
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
+    
+    class var sharedInstance: AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -34,3 +41,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+// MARK: handle callback url
+extension AppDelegate {
+    
+    func applicationHandle(url: URL) {
+        if (url.host == "oauth-callback") {
+            OAuthSwift.handle(url: url)
+        } else {
+            // Google provider is the only one with your.bundle.id url schema.
+            OAuthSwift.handle(url: url)
+        }
+    }
+}
