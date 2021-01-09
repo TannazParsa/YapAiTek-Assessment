@@ -9,35 +9,31 @@ import Foundation
 import RxSwift
 import OAuthSwift
 
-
 class MainViewModel {
-    
+
     var oauthswift: OAuthSwift?
-    var vc: MainViewController!
+    var viewController: MainViewController!
     var onChange = PublishSubject<State>()
-    
     enum State {
-        case loginSuccess(OAuth:OAuth1Swift,credential:OAuthSwiftCredential)
+        case loginSuccess(OAuth: OAuth1Swift, credential: OAuthSwiftCredential)
         case loginFailed(message: String)
     }
-    
-    init(_ vc:MainViewController) {
-        self.vc = vc
+    init(_ viewController: MainViewController) {
+        self.viewController = viewController
     }
-    
     // MARK: Flickr
-    func doOAuthFlickr(_ serviceParameters: [String:String]) {
+    func doOAuthFlickr(_ serviceParameters: [String: String]) {
 
         let oauthswift = OAuth1Swift(
-            consumerKey:    serviceParameters["consumerKey"]!,
+            consumerKey: serviceParameters["consumerKey"]!,
             consumerSecret: serviceParameters["consumerSecret"]!,
             requestTokenUrl: Constants.shared.requestTokenUrl,
-            authorizeUrl:    Constants.shared.authorizeUrl,
-            accessTokenUrl:  Constants.shared.accessTokenUrl
+            authorizeUrl: Constants.shared.authorizeUrl,
+            accessTokenUrl: Constants.shared.accessTokenUrl
         )
         self.oauthswift = oauthswift
-        oauthswift.authorizeURLHandler = vc.getURLHandler()
-        let _ = oauthswift.authorize(
+        oauthswift.authorizeURLHandler = viewController.getURLHandler()
+        _ = oauthswift.authorize(
         withCallbackURL: URL(string: "oauth-swift://oauth-callback/flickr")!) { result in
             switch result {
             case .success(let (credential, _, _)):
@@ -50,6 +46,5 @@ class MainViewModel {
             }
         }
     }
-    
-   
+
 }

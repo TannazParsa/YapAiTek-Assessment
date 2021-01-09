@@ -16,7 +16,6 @@ target 'YapAiTek-Assessment' do
    	 pod 'Kingfisher', '~> 4.0'
 
 
-
   target 'YapAiTek-AssessmentTests' do
     inherit! :search_paths
     # Pods for testing

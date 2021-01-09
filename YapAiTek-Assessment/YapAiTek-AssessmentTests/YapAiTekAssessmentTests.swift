@@ -8,7 +8,7 @@
 import XCTest
 @testable import YapAiTek_Assessment
 
-class YapAiTek_AssessmentTests: XCTestCase {
+class YapAiTekAssessmentTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
